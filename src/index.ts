@@ -53,5 +53,5 @@ app.patch("/todos/:id", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`app has been started on port ${port}`);
+  console.log(`TODO has been started on port ${port}`);
 });
